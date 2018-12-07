@@ -1,6 +1,6 @@
 Feature: Calculator unit test
 
-  @CalculatorTest
+  @UnitTest
   Scenario Outline: Test of <function>
     Given that I have a calculator
     When I perform the function <function> with the numbers <x> and <y>
