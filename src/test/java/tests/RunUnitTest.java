@@ -10,6 +10,6 @@ import cucumber.api.junit.Cucumber;
         plugin = {"pretty"},
         glue = {"steps"},
         features = {"src/test/resources/features"},
-        tags = {"@CalculatorTest"})
+        tags = {"@UnitTest"})
 
-public class TestRunner { }
+public class RunUnitTest { }
