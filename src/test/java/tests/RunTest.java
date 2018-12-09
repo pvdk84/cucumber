@@ -1,15 +1,14 @@
 package tests;
 
-import org.junit.runner.RunWith;
-
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {"pretty"},
         glue = {"steps"},
         features = {"src/test/resources/features"},
-        tags = {"@UnitTest"})
+        tags = {"@UnitTest or @ScreenTest"})
 
-public class RunUnitTest { }
+public class RunTest { }
