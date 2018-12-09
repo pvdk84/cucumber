@@ -3,11 +3,17 @@
 Example of a Cucumber test project.
 
 I've included three different kinds of test.
-- Unit-like test of a calculator:
-- Screen test for Wikipedia, with Selenium (work in progress).
+- Unit-like test of a calculator.
+- Screen test for Wikipedia, with Selenium.
 - API test for ..., with Rest-Assured (work in progress).
 
-I've also made a TestRunner class (work in progress).
+I've also made a RunTest class, which acts as a JUnit TestRunner.
+
+I've also added tags: @UnitTest, @ScreenTest, @ApiTest.
+These can be used to group tests, and run them together.
+You can tag a whole feature, an individual test, or even example sections.
+To run e.g. @ScreenTest and @UnitTest from command line, type:
+mvn test -Dcucumber.options="--tags @UnitTest,@ScreenTest"
 
 Useful sources:
 - https://docs.cucumber.io; cucumber documentation
