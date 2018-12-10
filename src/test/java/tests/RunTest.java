@@ -9,6 +9,6 @@ import org.junit.runner.RunWith;
         plugin = {"pretty"},
         glue = {"steps"},
         features = {"src/test/resources/features"},
-        tags = {"@UnitTest or @ScreenTest"})
+        tags = {"@UnitTest or @ScreenTest or @ApiTest"})
 
 public class RunTest { }

@@ -5,7 +5,7 @@ Example of a Cucumber test project.
 I've included three different kinds of test.
 - Unit-like test of a calculator.
 - Screen test for Wikipedia, with Selenium.
-- API test for ..., with Rest-Assured (work in progress).
+- API test for Google Books, with Rest-Assured.
 
 I've also made a RunTest class, which acts as a JUnit TestRunner.
 
@@ -20,4 +20,5 @@ Useful sources:
 - https://www.seleniumhq.org/docs/; selenium documentation
 - www.rest-assured.io/docs; rest-assured documentation
 - www.any-api.com; overview of public APIs (e.g. YouTube, Google, etc.)
+- http://appsdeveloperblog.com/rest-assured-evaluate-json-response-body/
 - http://angiejones.tech/rest-assured-with-cucumber-using-bdd-for-web-services-automation/
