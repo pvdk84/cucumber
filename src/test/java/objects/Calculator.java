@@ -1,6 +1,6 @@
 package objects;
 
-public class CalculatorUnitTestObjects {
+public class Calculator {
 
     private String addition(int x, int y) {
         int result = x + y;
